@@ -91,6 +91,7 @@ extern short C_SidebarWidth;
 // sidebar.c
 bool select_next        (struct SidebarWindowData *wdata);
 void sb_notify_mailbox  (struct SidebarWindowData *wdata, struct Mailbox *m);
+bool sidebar_mouse(struct MuttWindow *win, struct EventMouse *em);
 
 // observer.c
 int sb_insertion_observer(struct NotifyCallback *nc);
